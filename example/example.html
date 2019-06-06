@@ -1,7 +1,35 @@
 <html>
-    <head></head>
-    <body>
-        <p>test</p>
-        <script src="../release/bundle.js"></script>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>ex</title>
+</head>
+
+<body>
+    <p id="argb">test</p>
+    <script src="../release/bundle.js?v=66"></script>
+    <script>
+        easyCache.set([{
+            url: "https://dev-tg.fdzq.com/js/jquery.3.3.1.min.js?0.7047914738211762",
+            unique: '',
+            expire: ''
+        },{
+            url: "https://dev-tg.fdzq.com/js/fdzq-app.sdk.js?0.7047914738211762",
+            unique: '',
+            expire: ''
+        },{
+            url: "https://dev-tg.fdzq.com/js/fdzq-h5.js?0.7047914738211762",
+            unique: '',
+            expire: ''
+        }
+            
+        ])
+        window.onload=function(){
+
+                 console.log(Plug);
+
+        }
+    </script>
+</body>
+
 </html>
