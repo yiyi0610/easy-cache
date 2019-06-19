@@ -89,7 +89,6 @@ let easyCache = {
                     unique:''
                 };
                 if(this.checkHasScript(obj.url)){
-                    console.log(2);
                     this.injectScript(content);
                 }else{
                     localStorage.setItem(this.setKey(obj.url),JSON.stringify(data));
