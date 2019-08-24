@@ -4,7 +4,8 @@ module.exports = {
     mode: 'development',
     entry: {
         index: './src/index.js',
-        index2: './src/index2.js'
+        canvas:'./src/canvas.js',
+     //   index2: './src/index2.js'
     },
     output: {
         path: path.resolve(__dirname, 'release'),
